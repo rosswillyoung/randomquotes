@@ -9,7 +9,14 @@
 </head>
 <body>
     <div id="quoteContainer">
-        QUOTE GOES IN HERE
+        <p id="quote"></p>
+        <h3 id="author"></h3>
+    </div>
+    <div id="buttonContainer">
+        <a href="" id="tweet">
+            <img src="assets/Twitter_Logo_Blue.png" alt="twitter logo" title="Tweet this quote!" height="50px" width="50px">
+        </a>
+        <button id="refresh" onclick="getQuote()">Refresh</button>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="myscript.js"></script>

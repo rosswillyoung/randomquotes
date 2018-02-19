@@ -27,19 +27,19 @@ body {
 
 #buttonContainer {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     width: 70vh;
     margin: 0 auto;
 } 
 
 #tweet {
+    justify-self: start;
     text-align: left;
 }
 #refresh {
+    justify-self: end;
     border-radius: 3px;
     background-color: white;
-    margin: 0 0 0 auto;
-    height: 50px;
     width: 100px;
 }
 
